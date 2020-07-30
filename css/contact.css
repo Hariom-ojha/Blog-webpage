@@ -1,0 +1,102 @@
+#container{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    background-color: #eee;
+    box-shadow: 0px 0px 25px black;
+}
+
+.box{
+    border: 2px solid black;
+}
+
+#a{
+    grid-column: 1 / span 1;
+    margin-left: 100px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    background-image: url("/project/images/contact.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 16px black;
+
+}
+
+#b{
+    grid-column: 2 /span 1;
+    margin-right: 100px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 16px black;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+p{
+    color: yellow;
+    text-shadow: 1px 1px 1px black;
+}
+
+a{
+    color: yellow;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.area{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,textarea{
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    text-align: center;
+    margin-top: 10px;
+    transition: .3s ease;
+}
+
+input:hover{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+
+textarea:hover{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+
+button{
+    background-color: green;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    transition: .3s ease;
+}
+
+button:hover{
+    background-color: magenta;
+    box-shadow: 4px 4px 6px black;
+}

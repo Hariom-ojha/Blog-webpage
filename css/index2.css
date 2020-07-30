@@ -1,0 +1,166 @@
+/*advertise and tags*/
+
+.ad,.tags{
+    padding-top: 10px;
+    padding-top: 1px !important;
+    text-align: center;
+    margin-bottom: 3em;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.tags{
+    padding-bottom: 0.5em;
+}
+
+.content{
+    margin-top: 0;
+    padding: 10px;
+}
+
+.content1{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #eee;
+}
+
+.ad h2,.tags h2{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tag-list{
+    font-family: monospace;
+}
+
+span{
+    margin: 10px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.second{
+    background-color: #eee;
+}
+
+#tag{
+    font-size: 1.3em;
+}
+
+/* creating sign in and sign up */
+
+.join{
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    border-radius: 30px;
+    font-size: 1.2em !important;
+}
+
+#join{
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    box-shadow: 0px 0px 10px black;
+}
+
+.side nav{
+    padding-bottom: 2em;
+    display: flex;            /* displaying flex in side */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#update{
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1px !important;
+    background-color: #fff;
+    text-align:center;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 10px grey;
+}
+
+#update h1{
+    padding: 10px;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px black;
+    background-color: #000;
+    color: white;
+}
+
+input{
+    text-align: center;
+    font-size: 20px;           /* setting font size of input data */
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 15px
+}
+
+.button{
+    margin-top: 0.5em;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+    box-shadow: 4px 3px 5px black;;
+}
+
+input:hover{
+    box-shadow: 4px 3px 5px black;;
+}
+
+/* creting footer */
+
+.follow{
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+}
+
+.container-foot{
+    width: 99.85% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(36, 10, 95);
+    max-height: 400px;
+}
+
+.name{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    color: orange;
+    text-shadow: 0px 0px 2px black;
+}
+
+.set1{
+    font-size: 3em;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}

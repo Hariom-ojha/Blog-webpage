@@ -1,0 +1,180 @@
+@import "index1.css";
+@import "index2.css";
+
+body{
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+/* creating navigation bar*/
+
+.topic{
+    width: 100%;
+    text-align: center;
+}
+
+.container-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+}
+
+li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 1em;
+    text-align: center;
+}
+
+a:hover{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+.fa-search{                 /* creating search icon */
+    padding: 0.5em;
+    font-size: 1.5em !important;
+    color: aliceblue;
+    opacity: 0.6;
+    padding-top: 0 !important;
+    margin: 0;
+}
+
+/* designing title box */
+
+.site-title{
+    font-size: 4rem;
+    font-family: monospace;
+    margin: 0;
+    background-image: url('../images/homep.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 4px white;
+    margin-top: 0.95em;
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    text-shadow: 1px 1px 2px white;
+    margin-bottom: 4.85em;
+}
+
+#bold,.first{
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+
+
+@media (max-width: 900px){
+    .container-nav{
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .social{
+        justify-content: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    li a{
+        line-height: 40px;
+    }
+
+    .site-title{
+        font-size: 2.5rem;
+        background-size: 100% 130% ;
+    }
+
+    h1{
+        margin-bottom: 0;
+        text-shadow: 1px 1px 4px white;
+        margin-top: 1em;
+    }
+    
+    .subtitle{
+        font-size: 0.7em !important;
+        margin-bottom: 5.5em;
+    }
+    
+    #bold{
+        font-weight: 100;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: black;
+        color: white;
+    }
+
+    .container-main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main{
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .side{
+        max-width: 900px;
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    .fa {
+        margin: .5em;
+        padding: 0.25em;
+        width: 5%;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .post-img{
+        float: left!important;
+        margin-right: 16px!important;
+        vertical-align: middle;
+        border-style: none;
+        width: 50px;
+    }
+
+}

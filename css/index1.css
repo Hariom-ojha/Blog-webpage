@@ -1,0 +1,212 @@
+/* creating social media icons */
+
+.social{
+    display: flex;
+    justify-content: right;
+}
+
+.set{
+    display: flex;
+    margin: 0.5em;
+    padding: 0.2em;
+    font-size: 50px !important;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 1;
+    color: white;
+}
+
+.fa-facebook {
+   /* background: #3B5998;*/
+    opacity: 0.6;
+    color: white;
+    border-radius: 50%;
+    width: 1em;
+}
+
+.fa-twitter {
+   /* background: #55ACEE; */
+    color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.fa-instagram {
+  /*  background: purple;*/
+    color: white;
+    opacity: 0.6;
+}
+
+/* creating main */
+
+.container-main{
+    display: grid;
+    grid-template-columns: repeat(2, 65% 30%);
+    margin-top: 5em !important;
+}
+
+.main{
+    grid-column: 1 / span 1;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.article{
+    padding: 1em;
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    padding:0;
+    box-shadow: 0px 0px 10px black;
+}
+
+.space{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.article-title{
+    font-size: 2em;
+    color: #143774;
+    text-shadow: 1px 1px 5px grey;
+}
+
+article img{
+    width: 100%;
+}
+
+.info{
+    margin-top: 0;
+}
+
+ul li{
+    font-size: 1.2em;
+}
+
+.body{
+    margin-top: 0px;
+    font-size: 1.4em;
+}
+
+.read{
+    padding-left: 0em;
+    padding-bottom: 1em;
+    margin-left: 1em;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#fact{
+    font-weight: bold;
+}
+
+/* creating aside */
+
+.side{
+    grid-column: 2 / span 1;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 16%;
+    font-family: "Raleway", sans-serif;
+}
+
+/* creating popular posts section */
+
+.widget{
+    background-color: #000;
+    color: aliceblue;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 3em;
+}
+
+.w-image{
+    width: 100%;
+}
+
+.h-title{
+    margin-left: 1em !important;
+    margin-top: 0;
+    color: white;
+
+}
+
+.h-subtitle{
+    margin-left: 1.6em !important;
+    margin: 0;
+    padding: 0;
+}
+
+.h-body{
+    font-family: monospace;
+    font-size: 1.2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: 1em;
+}
+
+.p{
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 3em;
+}
+
+.p-head{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 16px !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.post{
+    color: #000!important;
+    background-color: #fff!important;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.post-img{
+    float: left!important;
+    margin-right: 16px!important;
+    vertical-align: middle;
+    border-style: none;
+    width: 90px;
+    height: 60px;
+}
+
+.post-list{
+    margin: 0;
+}
+
+.post-list{
+    list-style: none;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+    margin-left: 0
+}
+
+
+.color{
+    color: #000;
+    font-family: "open sans";
+}
+
+.large{
+    font-size: 1.5em !important;
+}
+
+.post-list:hover{
+    background-color: #ddd;
+}

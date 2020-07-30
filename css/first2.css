@@ -1,0 +1,135 @@
+/* creating sign in and sign up */
+
+.join{
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    border-radius: 30px;
+    font-size: 1.4em !important;
+}
+
+#join{
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    box-shadow: 0px 0px 10px black;
+}
+
+.side nav{
+    padding-bottom: 2em;
+    display: flex;            /* displaying flex in side */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#update{
+    padding: 20px;
+    background-color: cyan;
+    text-align:center;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 10px grey;
+}
+
+#update h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+input{
+    text-align: center;
+    font-size: 20px;           /* setting font size of input data */
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 15px
+}
+
+.button{
+    margin-top: 0.5em;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+    box-shadow: 4px 3px 5px black;;
+}
+
+input:hover{
+    box-shadow: 4px 3px 5px black;;
+}
+
+/* creating footer*/
+
+.foot{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    height: 90%;
+    max-height: 400px;
+    background-color: #143774;
+}
+
+.name{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    color: orange;
+    text-shadow: 0px 0px 2px black;
+}
+
+.follow{
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+    margin-bottom: 0em;
+    padding-top: 1em;
+}
+
+/* creating social media icons */
+
+.fa {
+    display: flex;
+    margin: 0.5em;
+    padding: 0.2em;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 1;
+    color: white;
+}
+
+.fa-facebook {
+   /* background: #3B5998;*/
+    opacity: 0.6;
+    color: white;
+    border-radius: 50%;
+    width: 1em;
+}
+
+.fa-twitter {
+   /* background: #55ACEE; */
+    color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.fa-instagram {
+  /*  background: purple;*/
+    color: white;
+    opacity: 0.6;
+}
